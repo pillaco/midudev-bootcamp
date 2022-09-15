@@ -1,12 +1,8 @@
-import './App.css';
-import Mensaje from './Mensaje';
+import "./App.css";
+import Contador from "./Contador";
 
-function App() {
-  return (
-    <div className="App">
-      <Mensaje message='CUUIIIUIUIIUU' color='yellow'/>
-    </div>
-  );
-}
+const App = () => {
+  return <Contador num={20} />;
+};
 
 export default App;
