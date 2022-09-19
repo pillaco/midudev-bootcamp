@@ -1,10 +1,13 @@
-import './App.css';
-import Mensaje from './Mensaje';
+import React from "react";
+import { useState } from "react";
+import "./App.css";
+import ListOfGifs from "./components/ListOfGifs";
 
 function App() {
+
   return (
     <div className="App">
-      <Mensaje message='CUUIIIUIUIIUU' color='yellow'/>
+      <ListOfGifs keyword= 'panda' />
     </div>
   );
 }
